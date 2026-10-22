@@ -25,7 +25,7 @@ class Employee(BaseModel):
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "version": "3.0"}
+    return {"status": "ok", "version": "3.1"}
 
 
 @app.get("/employees")
